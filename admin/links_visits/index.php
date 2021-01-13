@@ -66,6 +66,8 @@ endif;
                 $arParams['WHERE'] = $arFilter;
         ?>
         <h1>Админка | Переходы</h1>
+        <a href="/admin/">Ссылки</a>
+        <a href="/admin/?action=logout">Выйти</a>
         <form method="GET">
             <h2>Фильтр</h2>
             <div class="filter-item">
